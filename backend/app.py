@@ -55,7 +55,7 @@ def handle_gps_connection(conn, addr):
                 logger.error(f"Error al procesar datos GPS: {str(e)}")
 
 def start_gps_server():
-    host = '167.71.106.231'  # Tu IP de DigitalOcean
+    host = '0.0.0.0'  # Escucha en todas las interfaces
     port = 6006
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

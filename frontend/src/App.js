@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import io from 'socket.io-client';
 
-const SOCKET_SERVER_URL = process.env.REACT_APP_SOCKET_SERVER_URL || 'http://192.168.1.25:5000';
+const SOCKET_SERVER_URL = 'http://167.71.106.231:5000';
 console.log('Conectando a:', SOCKET_SERVER_URL);
 
 function App() {
@@ -45,6 +45,7 @@ function App() {
       socket.disconnect();
     };
   }, [connectSocket]);
+
   return (
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
