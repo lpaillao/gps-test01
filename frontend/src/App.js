@@ -1,3 +1,4 @@
+// frontend/src/App.js
 import React, { useState, useEffect, useCallback } from 'react';
 import io from 'socket.io-client';
 

@@ -4,7 +4,7 @@ import math
 import sys
 
 # Configuración del servidor
-HOST = '127.0.0.1'  # localhost
+HOST = '167.71.106.231'  # localhost
 PORT = 6006  # El mismo puerto que configuraste en tu servidor
 
 # Configuración de la ruta circular
